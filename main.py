@@ -5,7 +5,9 @@ def main():
     print("Крсовая №3")
     data = get_operations_file()
     data = get_filtr_list(data)
+    print(data)
     data = get_sort_list(data)
+    print(data)
     data = get_format_list(data)
     for Operations in data:
         print(Operations)
