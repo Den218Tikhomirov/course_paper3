@@ -83,7 +83,7 @@ def test_get_format_list():
     ]
     format_data = get_format_list(test_data)
     assert format_data() == [
-        "\n19.11.2019 Перевод организации\nMaestro 7810 84** **** 5568 ->  Счет **2869\n30153.72 руб.\n          "
+        "\n19.11.2019 Перевод организации\nMaestro 7810 84** **** 5568 ->  Счет **2869\n30153.72 руб.\n"
     ]
 
 
