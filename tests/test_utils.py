@@ -1,5 +1,5 @@
 
-from utils import get_operations_file, get_filtr_list, get_sort_list, get_format_num, get_format_list, mask_number
+from utils import get_operations_file,  get_sort_list,  get_format_list, mask_number
 
 
 def test_get_operations_file():
@@ -88,4 +88,4 @@ def test_get_format_list():
 
 
 def test_mask_number():
-    assert mask_number([{"from": "Maestro 7810846596785568",}]) == [{"from": "Maestro 78** **** 9678 5568"}]
+    assert mask_number([{"from": "Maestro 7810846596785568"}]) == [{"from": "Maestro 78** **** 9678 5568"}]
